@@ -14,23 +14,6 @@ A full-stack todo application
 - **Backend**: FastAPI (Python)
 - **Database**: PostgreSQL
 
-
-## Project Structure
-```
-.
-├── backend-fastapi     # FastAPI backend
-│   ├── app             # API endpoints and models
-│   ├── requirements.txt # Python dependencies
-│   └── .env            # Environment variables
-├── src                 # React frontend
-│   ├── components      # Reusable UI components
-│   ├── features        # Feature-specific code
-│   ├── schemas         # Validation schemas
-│   ├── services        # API service layer
-│   ├── store           # Redux store configuration
-│   └── App.tsx         # Main application component
-├── package.json        # Frontend dependencies
-└── README.md           # This file
 ```
 
 ## Setup Instructions
