@@ -1,6 +1,6 @@
 # Todo Application
 
-A full-stack todo application built with modern web technologies.
+A full-stack todo application 
 
 ## Features
 - User authentication (registration and login)
@@ -25,7 +25,6 @@ A full-stack todo application built with modern web technologies.
 ├── src                 # React frontend
 │   ├── components      # Reusable UI components
 │   ├── features        # Feature-specific code
-│   ├── hooks           # Custom React hooks
 │   ├── schemas         # Validation schemas
 │   ├── services        # API service layer
 │   ├── store           # Redux store configuration
@@ -50,20 +49,8 @@ A full-stack todo application built with modern web technologies.
 6. Run server: `uvicorn app.main:app --reload --host 0.0.0.0 --port 8000`
 7. Access at: http://localhost:8000
 
-## API Endpoints
-- `POST /api/auth/register` - User registration
-- `POST /api/auth/login` - User login
-- `GET /api/auth/me` - Get current user info
-- `GET /api/health` - Health check
 
 ## Local Storage
 The application uses local storage to persist:
 - User authentication tokens
 - Todo items (separated by user)
-
-## Contributing
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a pull request
